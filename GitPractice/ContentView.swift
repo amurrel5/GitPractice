@@ -20,7 +20,7 @@ struct ContentView: View {
                     .fontWeight(.thin)
                     .foregroundColor(Color.pink)
                 Image("Lily")
-                    .resizable()
+                    .resizable(resizingMode: .tile)
                     .aspectRatio(contentMode: .fill)
                 
                 HStack (spacing: 8) {
@@ -28,12 +28,12 @@ struct ContentView: View {
                         .font(.title2)
                         .foregroundColor(Color.pink)
                     Image(systemName: "heart.fill")
-                        .foregroundColor(Color.black)
+                        .foregroundColor(Color.white)
                 
                     
                 }
                 Text("Change 1")
-                
+                Text("Change 2")
                 .padding()
             }
         }
