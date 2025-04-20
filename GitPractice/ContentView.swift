@@ -15,7 +15,7 @@ struct ContentView: View {
             
             VStack {
                 
-                Text("Hello, world!")
+                Text("Hello, Friends!")
                     .font(.largeTitle)
                     .fontWeight(.thin)
                     .foregroundColor(Color.pink)
@@ -32,8 +32,7 @@ struct ContentView: View {
                 
                     
                 }
-                Text("Change 1")
-                Text("Change 2")
+                Text("Change 3")
                 .padding()
             }
         }
